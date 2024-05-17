@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+body{
+   background-image: linear-gradient(to right,#01022d,#010248d7);
+     /* 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.container{
+   background-image: linear-gradient(to right,#01022ae5 30%,#00000088),url(bg.webp); 
+    background-size: cover;
+   width:100%; 
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-repeat: no-repeat;
+    background-position:right ;
+    
+   
+}
+.container:hover{
+    background-image: linear-gradient(to right,#01022de5 30%,transparent),
+    url(bg.webp); 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.logo{
+    font-size: 30px;
+    text-transform:uppercase;
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+ul a:hover{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white; 
+    
+}
+.content{
+    height:100%;
+    color: white;
+    width: 50%;
+    margin-top:50px;
+    padding:200px 60px;
+  justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    text-align: center; 
+}
+.content > div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.content h2{
+    font-size: 100px;
+    text-transform:uppercase;
+    
+}
+.content p{
+    letter-spacing: 2px;
+    font-size:30px ;
+    width: 70%;
+    padding: 20px 0;
+}
+#button-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers the button */
+    width: 100%;
+}
+.content button{
+    font-size: 30px;
+    padding: 10px 40px;
+    border-radius: 10px;
+   border: 2px solid transparent;
+   cursor: pointer;
+   max-width: 30%;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
